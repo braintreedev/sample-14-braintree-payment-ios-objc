@@ -1,0 +1,3 @@
+platform :ios, '7.1'
+pod 'Braintree', '~> 3.4.0'
+pod 'AFNetworking', '~> 2.2'
