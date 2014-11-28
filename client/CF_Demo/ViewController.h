@@ -10,7 +10,7 @@
 #import "AFNetworking.h"
 #import "Braintree/Braintree.h"
 
-@interface PCFViewController : UIViewController
+@interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *transactionIDLabel;
 @property (strong, nonatomic) NSString *clientToken;

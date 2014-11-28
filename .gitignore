@@ -3,3 +3,4 @@ client/Podfile.lock
 client/Pods
 client/*.xcworkspace
 client/*.xcodeproj/xcuserdata
+client/*.xcodeproj/*.xcworkspace

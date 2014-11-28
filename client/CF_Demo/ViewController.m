@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Commerce Factory. All rights reserved.
 //
 
-#import "PCFViewController.h"
+#import "ViewController.h"
 
-@interface PCFViewController () <BTDropInViewControllerDelegate>
+@interface ViewController () <BTDropInViewControllerDelegate>
 
 @end
 
-@implementation PCFViewController
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,7 +24,7 @@
     [self.manager GET:@"http://127.0.0.1:3000/token"
           parameters: nil
           success: ^(AFHTTPRequestOperation *operation, id responseObject) {
-            self.clientToken = [[NSString alloc] initWithString:responseObject[@"clientToken"]];
+            self.clientToken = responseObject[@"clientToken"];
             self.startPaymentButton.enabled = TRUE;
           }
           failure:^(AFHTTPRequestOperation *operation, NSError *error) {
@@ -73,7 +73,7 @@
     [self.manager POST:@"http://127.0.0.1:3000/payment"
        parameters:@{@"payment_method_nonce": paymentMethodNonce}
           success:^(AFHTTPRequestOperation *operation, id responseObject) {
-              NSString *transactionID = [[NSString alloc] initWithString:responseObject[@"transaction"][@"id"]];
+              NSString *transactionID = responseObject[@"transaction"][@"id"];
               self.transactionIDLabel.text = [[NSString alloc] initWithFormat:@"Transaction ID: %@", transactionID];
           }
           failure:^(AFHTTPRequestOperation *operation, NSError *error) {
