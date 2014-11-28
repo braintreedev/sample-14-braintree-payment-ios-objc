@@ -13,7 +13,7 @@
 		7AD081581A1FF8520011BB3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD081561A1FF8520011BB3F /* Main.storyboard */; };
 		7AD0815A1A1FF8520011BB3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD081591A1FF8520011BB3F /* Images.xcassets */; };
 		7AD0815D1A1FF8520011BB3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD0815B1A1FF8520011BB3F /* LaunchScreen.xib */; };
-		7AD081691A1FF8520011BB3F /* CF_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD081681A1FF8520011BB3F /* CF_DemoTests.m */; };
+		7AD081691A1FF8520011BB3F /* vzeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD081681A1FF8520011BB3F /* vzeroTests.m */; };
 		7AD081751A1FF8C30011BB3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD081741A1FF8C30011BB3F /* ViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -23,13 +23,13 @@
 			containerPortal = 7AD081411A1FF8520011BB3F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7AD081481A1FF8520011BB3F;
-			remoteInfo = CF_Demo;
+			remoteInfo = vzero;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		13B57A8E08C5511C6BB84166 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AD081491A1FF8520011BB3F /* CF_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CF_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD081491A1FF8520011BB3F /* vzero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vzero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD0814D1A1FF8520011BB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AD0814E1A1FF8520011BB3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7AD081501A1FF8520011BB3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,9 +37,9 @@
 		7AD081571A1FF8520011BB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AD081591A1FF8520011BB3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7AD0815C1A1FF8520011BB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7AD081621A1FF8520011BB3F /* CF_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CF_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD081621A1FF8520011BB3F /* vzeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vzeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD081671A1FF8520011BB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AD081681A1FF8520011BB3F /* CF_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CF_DemoTests.m; sourceTree = "<group>"; };
+		7AD081681A1FF8520011BB3F /* vzeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vzeroTests.m; sourceTree = "<group>"; };
 		7AD081731A1FF8C30011BB3F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7AD081741A1FF8C30011BB3F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C16C9794837AE48F8C1D9106 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,8 +76,8 @@
 		7AD081401A1FF8520011BB3F = {
 			isa = PBXGroup;
 			children = (
-				7AD0814B1A1FF8520011BB3F /* CF_Demo */,
-				7AD081651A1FF8520011BB3F /* CF_DemoTests */,
+				7AD0814B1A1FF8520011BB3F /* vzero */,
+				7AD081651A1FF8520011BB3F /* vzeroTests */,
 				7AD0814A1A1FF8520011BB3F /* Products */,
 				856D9484453B84E6DF589025 /* Pods */,
 				013774D559AC435173A117AB /* Frameworks */,
@@ -87,13 +87,13 @@
 		7AD0814A1A1FF8520011BB3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AD081491A1FF8520011BB3F /* CF_Demo.app */,
-				7AD081621A1FF8520011BB3F /* CF_DemoTests.xctest */,
+				7AD081491A1FF8520011BB3F /* vzero.app */,
+				7AD081621A1FF8520011BB3F /* vzeroTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7AD0814B1A1FF8520011BB3F /* CF_Demo */ = {
+		7AD0814B1A1FF8520011BB3F /* vzero */ = {
 			isa = PBXGroup;
 			children = (
 				7AD081731A1FF8C30011BB3F /* ViewController.h */,
@@ -105,7 +105,7 @@
 				7AD0815B1A1FF8520011BB3F /* LaunchScreen.xib */,
 				7AD0814C1A1FF8520011BB3F /* Supporting Files */,
 			);
-			path = CF_Demo;
+			path = vzero;
 			sourceTree = "<group>";
 		};
 		7AD0814C1A1FF8520011BB3F /* Supporting Files */ = {
@@ -117,13 +117,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7AD081651A1FF8520011BB3F /* CF_DemoTests */ = {
+		7AD081651A1FF8520011BB3F /* vzeroTests */ = {
 			isa = PBXGroup;
 			children = (
-				7AD081681A1FF8520011BB3F /* CF_DemoTests.m */,
+				7AD081681A1FF8520011BB3F /* vzeroTests.m */,
 				7AD081661A1FF8520011BB3F /* Supporting Files */,
 			);
-			path = CF_DemoTests;
+			path = vzeroTests;
 			sourceTree = "<group>";
 		};
 		7AD081661A1FF8520011BB3F /* Supporting Files */ = {
@@ -146,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7AD081481A1FF8520011BB3F /* CF_Demo */ = {
+		7AD081481A1FF8520011BB3F /* vzero */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AD0816C1A1FF8520011BB3F /* Build configuration list for PBXNativeTarget "CF_Demo" */;
+			buildConfigurationList = 7AD0816C1A1FF8520011BB3F /* Build configuration list for PBXNativeTarget "vzero" */;
 			buildPhases = (
 				C1B8FB7DF65DEA5E18C95980 /* Check Pods Manifest.lock */,
 				7AD081451A1FF8520011BB3F /* Sources */,
@@ -160,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = CF_Demo;
-			productName = CF_Demo;
-			productReference = 7AD081491A1FF8520011BB3F /* CF_Demo.app */;
+			name = vzero;
+			productName = vzero;
+			productReference = 7AD081491A1FF8520011BB3F /* vzero.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7AD081611A1FF8520011BB3F /* CF_DemoTests */ = {
+		7AD081611A1FF8520011BB3F /* vzeroTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AD0816F1A1FF8520011BB3F /* Build configuration list for PBXNativeTarget "CF_DemoTests" */;
+			buildConfigurationList = 7AD0816F1A1FF8520011BB3F /* Build configuration list for PBXNativeTarget "vzeroTests" */;
 			buildPhases = (
 				7AD0815E1A1FF8520011BB3F /* Sources */,
 				7AD0815F1A1FF8520011BB3F /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				7AD081641A1FF8520011BB3F /* PBXTargetDependency */,
 			);
-			name = CF_DemoTests;
-			productName = CF_DemoTests;
-			productReference = 7AD081621A1FF8520011BB3F /* CF_DemoTests.xctest */;
+			name = vzeroTests;
+			productName = vzeroTests;
+			productReference = 7AD081621A1FF8520011BB3F /* vzeroTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -201,7 +201,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7AD081441A1FF8520011BB3F /* Build configuration list for PBXProject "CF_Demo" */;
+			buildConfigurationList = 7AD081441A1FF8520011BB3F /* Build configuration list for PBXProject "vzero" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -214,8 +214,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AD081481A1FF8520011BB3F /* CF_Demo */,
-				7AD081611A1FF8520011BB3F /* CF_DemoTests */,
+				7AD081481A1FF8520011BB3F /* vzero */,
+				7AD081611A1FF8520011BB3F /* vzeroTests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AD081691A1FF8520011BB3F /* CF_DemoTests.m in Sources */,
+				7AD081691A1FF8520011BB3F /* vzeroTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +297,7 @@
 /* Begin PBXTargetDependency section */
 		7AD081641A1FF8520011BB3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7AD081481A1FF8520011BB3F /* CF_Demo */;
+			target = 7AD081481A1FF8520011BB3F /* vzero */;
 			targetProxy = 7AD081631A1FF8520011BB3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -403,9 +403,9 @@
 			baseConfigurationReference = F314553EDC4849D04CB8E2C0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CF_Demo/Info.plist;
+				INFOPLIST_FILE = vzero/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = vzero;
 			};
 			name = Debug;
 		};
@@ -414,9 +414,9 @@
 			baseConfigurationReference = C16C9794837AE48F8C1D9106 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CF_Demo/Info.plist;
+				INFOPLIST_FILE = vzero/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = vzero;
 			};
 			name = Release;
 		};
@@ -432,10 +432,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CF_DemoTests/Info.plist;
+				INFOPLIST_FILE = vzeroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CF_Demo.app/CF_Demo";
+				PRODUCT_NAME = vzeroTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vzero.app/vzero";
 			};
 			name = Debug;
 		};
@@ -447,17 +447,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CF_DemoTests/Info.plist;
+				INFOPLIST_FILE = vzeroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CF_Demo.app/CF_Demo";
+				PRODUCT_NAME = vzeroTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vzero.app/vzero";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7AD081441A1FF8520011BB3F /* Build configuration list for PBXProject "CF_Demo" */ = {
+		7AD081441A1FF8520011BB3F /* Build configuration list for PBXProject "vzero" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AD0816A1A1FF8520011BB3F /* Debug */,
@@ -466,7 +466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AD0816C1A1FF8520011BB3F /* Build configuration list for PBXNativeTarget "CF_Demo" */ = {
+		7AD0816C1A1FF8520011BB3F /* Build configuration list for PBXNativeTarget "vzero" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AD0816D1A1FF8520011BB3F /* Debug */,
@@ -475,7 +475,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AD0816F1A1FF8520011BB3F /* Build configuration list for PBXNativeTarget "CF_DemoTests" */ = {
+		7AD0816F1A1FF8520011BB3F /* Build configuration list for PBXNativeTarget "vzeroTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AD081701A1FF8520011BB3F /* Debug */,

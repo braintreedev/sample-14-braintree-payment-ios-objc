@@ -1,6 +1,6 @@
 //
 //  PCFViewController.h
-//  CF_Demo
+//  vzero
 //
 //  Created by Alberto López on 11/11/14.
 //  Copyright (c) 2014 Commerce Factory. All rights reserved.
