@@ -27,7 +27,7 @@ The sample backend is written in Node.js and uses:
 
 * In the `client` folder
 	* Run `pod install` to install all dependencies.
-	* Open the newly created file `CF_Demo.xcworkspace` in your XCode. 
+	* Open the newly created file `vzero.xcworkspace` in your XCode. 
 	* Build the app and run it in your emulator or on your device
 		* *Once the app started it will try to get the client token from your backend. Ensure that your server is already running before you launch the mobile application.*
 	* Click on `Start Payment`
